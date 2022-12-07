@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+    <title>Breakout Game</title>
+  </head>
+  <body>
+    <h1>Breakout Game</h1>
+    <button id="rules-btn" class="btn rules-btn">Show Rules</button>
+    <div id="rules" class="rules">
+      <h2>How to play?</h2>
+      <ul>
+        <li>Use your mouse to move the paddle</li>
+        <li>Use the mouse to move the paddle</li>
+        <li>Don't let the ball fall off the bottom</li>
+        <li>Break all the bricks to win</li>
+      </ul>
+      <button id="close-btn" class="btn">Close</button>
+    </div>
+    <div id="game-result" class="game-result">
+      <h2 id="game-result-text"></h2>
+      <button id="play-game-btn" class="btn">Play</button>
+    </div>
+    <canvas id="canvas" width="800" height="600" class="hide-item"></canvas>
+  </body>
+</html>
