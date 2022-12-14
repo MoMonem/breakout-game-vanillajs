@@ -80,3 +80,7 @@ canvas {
   align-items: center;
   color: white;
 }
+
+#space {
+  margin-bottom: 50px;
+}
